@@ -1,7 +1,59 @@
 /* Our CSS file. */
-
-
 .container, .content {
 width: 100%;
 height: 100%;
+}
+.card{
+    background-color: darkgrey;
+    padding: 1%;
+}
+.plant_card {
+    background: linear-gradient(to right,rgb(90, 146, 55) 0%,rgb(90, 146, 55) 42%,white 40%,white 100%); 
+    margin:10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    position: relative;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+.plant1 img {
+    width: 450px;
+    margin-top: -35%;
+    margin-bottom: 15%;
+    margin-left: -8%;
+    margin-right: 20%;
+}
+.plant2 img {
+    width: 430px;
+    margin-top: -5%;
+    margin-bottom: 15%;
+    margin-left: -8%;
+    margin-right: 25%;
+}
+h3 {
+    font-size: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -7%;
+    margin-bottom: 50px;
+}
+p {
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+a {
+    background: rgb(90, 146, 55);
+    color: white;
+    padding:20px 25px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+}
+a:hover {
+    background: #052501;
 }
