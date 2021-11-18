@@ -1,15 +1,15 @@
 /* Our CSS file. */
 .container, .content {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }
-.card{
+#container{
     background-color: darkgrey;
     padding: 1%;
 }
-.plant_card {
+.card {
     background: linear-gradient(to right,rgb(90, 146, 55) 0%,rgb(90, 146, 55) 42%,white 40%,white 100%); 
-    margin:10%;
+    margin:5%;
     margin-left: 25%;
     margin-right: 25%;
     display: flex;
